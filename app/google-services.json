@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "345028361972",
+    "project_id": "umpublicbus2",
+    "storage_bucket": "umpublicbus2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345028361972:android:6d47b42a14dfe4b28d68a1",
+        "android_client_info": {
+          "package_name": "com.example.umpublicbus2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345028361972-vt4en8uiu9ik65dpbflg46i924h2lb7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.umpublicbus2",
+            "certificate_hash": "1da8da922d72030cb7eeefe9438560501be21df3"
+          }
+        },
+        {
+          "client_id": "345028361972-49t8l0asrhcsgv6hkv2m4i4bf6da9471.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqZjbeqarcKQNRxfzDjjtxc6bmS0GtP7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345028361972-49t8l0asrhcsgv6hkv2m4i4bf6da9471.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

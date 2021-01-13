@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#130527"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="251dp"
+        android:layout_height="41dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Driver Information"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#F3EB5D"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <TextView
+        android:id="@+id/tvNewAccount"
+        android:layout_width="226dp"
+        android:layout_height="23dp"
+        android:text="Create new account"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRegister"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/etDriverName"
+        android:layout_width="263dp"
+        android:layout_height="43dp"
+        android:background="#82B1FF"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#393636"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNewAccount"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <EditText
+        android:id="@+id/etRDriverEmail"
+        android:layout_width="262dp"
+        android:layout_height="47dp"
+        android:background="#82B1FF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:textColor="#000000"
+        android:textColorHint="#393636"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDriverName"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="262dp"
+        android:layout_height="47dp"
+        android:background="#82B1FF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Phone Number"
+        android:textColor="#000000"
+        android:textColorHint="#393636"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRDriverEmail"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <EditText
+        android:id="@+id/etRegisterPwd"
+        android:layout_width="262dp"
+        android:layout_height="47dp"
+        android:background="#82B1FF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Password"
+        android:textColor="#000000"
+        android:textColorHint="#393636"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPhoneNumber"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <EditText
+        android:id="@+id/etRegisterRePwd"
+        android:layout_width="262dp"
+        android:layout_height="47dp"
+        android:background="#82B1FF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Retype Password"
+        android:textColor="#000000"
+        android:textColorHint="#393636"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRegisterPwd"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <Button
+        android:id="@+id/btRegistration"
+        android:layout_width="262dp"
+        android:layout_height="47dp"
+        android:background="#EA80FC"
+        android:text="Register"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRegisterRePwd"
+        app:layout_constraintVertical_bias="0.282" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
